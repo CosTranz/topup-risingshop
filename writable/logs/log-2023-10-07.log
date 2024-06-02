@@ -1,0 +1,683 @@
+CRITICAL - 2023-10-07 02:10:57 --> Call to undefined method App\Models\PerkuliahanModel::with
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\PerkuliahanC.php(17): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:11:13 --> Call to undefined method App\Models\PerkuliahanModel::with
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\PerkuliahanC.php(17): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:11:25 --> Call to undefined method App\Models\PerkuliahanModel::with
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\PerkuliahanC.php(17): CodeIgniter\Model->__call('with', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:13:36 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\v_perkuliahan.php on line 29.
+ 1 APPPATH\Views\v_perkuliahan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(26): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:13:58 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\v_perkuliahan.php on line 29.
+ 1 APPPATH\Views\v_perkuliahan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(26): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:13:59 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\v_perkuliahan.php on line 29.
+ 1 APPPATH\Views\v_perkuliahan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(26): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:14:10 --> Attempt to read property "id" on array
+in APPPATH\Views\v_perkuliahan.php on line 29.
+ 1 APPPATH\Views\v_perkuliahan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(26): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:15:19 --> Attempt to read property "id" on array
+in APPPATH\Views\v_perkuliahan.php on line 29.
+ 1 APPPATH\Views\v_perkuliahan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(26): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:21:48 --> Invalid file: "v_tambah_perkuliahan.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_tambah_perkuliahan.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_tambah_perkuliahan', [], true)
+ 3 APPPATH\Controllers\PerkuliahanC.php(67): view('v_tambah_perkuliahan')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:22:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(188): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, '2111016210011')
+ 4 APPPATH\Controllers\PerkuliahanC.php(49): CodeIgniter\BaseModel->find('2111016210011')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:26:31 --> Invalid file: "v_perkuliahan_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_perkuliahan_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan_add', [], true)
+ 3 APPPATH\Controllers\PerkuliahanC.php(67): view('v_perkuliahan_add')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:38:45 --> Call to undefined method App\Models\PerkuliahanModel::getAllData
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\PerkuliahanC.php(16): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 02:41:58 --> mysqli_sql_exception: Unknown column 'tb_mahasiswa.nama_mahasiswa' in 'field list' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perk...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perk...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perk...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perk...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(13): App\Models\PerkuliahanModel->getPerkuliahanWithRelations()
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#9 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#10 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-07 02:41:58 --> Unknown column 'tb_mahasiswa.nama_mahasiswa' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mahasiswa`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mahasiswa`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mahasiswa`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mahasiswa`, `tb_matakuliah`.`nama_mk`, `tb_dosen`.`nama_dosen`
+FROM `tb_perkuliahan`
+JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`nim` = `tb_perkuliahan`.`nim`
+JOIN `tb_matakuliah` ON `tb_matakuliah`.`kode_mk` = `tb_perkuliahan`.`kode_mk`
+JOIN `tb_dosen` ON `tb_dosen`.`nip` = `tb_perkuliahan`.`nip`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PerkuliahanModel.php(20): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\PerkuliahanC.php(13): App\Models\PerkuliahanModel->getPerkuliahanWithRelations()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:51:50 --> Undefined property: stdClass::$nama_mahasiswa
+in APPPATH\Views\v_perkuliahan_add.php on line 5.
+ 1 APPPATH\Views\v_perkuliahan_add.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_mahasiswa', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan_add.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan_add', [], true)
+ 5 APPPATH\Controllers\PerkuliahanC.php(57): view('v_perkuliahan_add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 02:56:03 --> Call to undefined method App\Models\PerkuliahanModel::insertData
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\PerkuliahanC.php(50): CodeIgniter\Model->__call('insertData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:00:41 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeignite\cid\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(50): App\Models\PerkuliahanModel->insertData(Array)
+#9 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+#10 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#11 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-07 03:00:41 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (\'2111016210014\', \'21221\', \'2193201\', \'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (\'2111016210014\', \'21221\', \'2193201\', \'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (\'2111016210014\', \'21221\', \'2193201\', \'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (:nim:, :kode_mk:, :nip:, :semester:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\PerkuliahanModel.php(46): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\PerkuliahanC.php(50): App\Models\PerkuliahanModel->insertData([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:01:02 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeignite\cid\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(46): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(50): App\Models\PerkuliahanModel->insertData(Array)
+#9 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+#10 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#11 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-07 03:01:02 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (\'2111016210014\', \'21221\', \'2193201\', \'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (\'2111016210014\', \'21221\', \'2193201\', \'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (\'2111016210014\', \'21221\', \'2193201\', \'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_perkuliahan` (`nim`, `kode_mk`, `nip`, `semester`) VALUES (:nim:, :kode_mk:, :nip:, :semester:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\PerkuliahanModel.php(46): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\PerkuliahanC.php(50): App\Models\PerkuliahanModel->insertData([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:11:34 --> Undefined variable $perkuliahan
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $perkuliahan', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(23): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:13:56 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 31.
+ 1 APPPATH\Views\v_perkuliahan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(23): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:13:59 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 31.
+ 1 APPPATH\Views\v_perkuliahan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(23): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:14:30 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 31.
+ 1 APPPATH\Views\v_perkuliahan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(23): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:14:31 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 31.
+ 1 APPPATH\Views\v_perkuliahan.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(23): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:20:05 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 39.
+ 1 APPPATH\Views\v_perkuliahan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(23): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:20:38 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 39.
+ 1 APPPATH\Views\v_perkuliahan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(23): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:32:31 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 39.
+ 1 APPPATH\Views\v_perkuliahan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:33:06 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 39.
+ 1 APPPATH\Views\v_perkuliahan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:38:33 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 03:38:33 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = :kode_mk:', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:39:02 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 03:39:02 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = :kode_mk:', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:41:08 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\v_perkuliahan.php on line 39.
+ 1 APPPATH\Views\v_perkuliahan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:43:46 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 34.
+ 1 APPPATH\Views\v_perkuliahan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 03:43:47 --> Attempt to read property "nim" on array
+in APPPATH\Views\v_perkuliahan.php on line 34.
+ 1 APPPATH\Views\v_perkuliahan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:47:48 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 03:47:48 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = :kode_mk:', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:48:56 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_3` FOREIGN KEY (`nip`) REFERENCES `tb_dosen` (`nip`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\DosenModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\DosenC.php(87): App\Models\DosenModel->deleteData('2193201')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\DosenC->delete('2193201')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DosenC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 03:48:56 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_3` FOREIGN KEY (`nip`) REFERENCES `tb_dosen` (`nip`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_dosen`
+WHERE `nip` = \'2193201\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dosen`
+WHERE `nip` = \'2193201\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dosen`
+WHERE `nip` = \'2193201\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dosen`
+WHERE `nip` = :nip:', [...], false)
+ 5 APPPATH\Models\DosenModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\DosenC.php(87): App\Models\DosenModel->deleteData('2193201')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DosenC->delete('2193201')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DosenC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:49:05 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 03:49:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:54:35 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(95): App\Models\MatakuliahModel->deleteData('12321')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 03:54:35 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = :kode_mk:', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\MatakuliahC.php(95): App\Models\MatakuliahModel->deleteData('12321')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 03:55:54 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 03:55:54 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-07 04:00:56 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-07 04:00:56 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = :kode_mk:', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-07 04:05:17 --> Attempt to read property "kode_mk" on array
+in APPPATH\Views\v_perkuliahan.php on line 39.
+ 1 APPPATH\Views\v_perkuliahan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on array', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(24): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

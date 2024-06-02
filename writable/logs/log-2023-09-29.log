@@ -1,0 +1,643 @@
+CRITICAL - 2023-09-29 01:21:08 --> Undefined variable $db
+in APPPATH\Views\template.php on line 17.
+ 1 APPPATH\Views\template.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 5 APPPATH\Controllers\Mahasiswaa.php(12): view('template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:31:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:31:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:32:08 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:32:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:32:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:32:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:32:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:32:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:32:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:32:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:33:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:33:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:33:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:33:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:33:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:33:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:33:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:33:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:33:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#5 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-29 01:33:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 3 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:34:01 --> mysqli_sql_exception: Table 'db_akademik.mahasiswaa' doesn't exist in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 01:34:01 --> Table 'db_akademik.mahasiswaa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswaa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswaa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswaa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:34:02 --> mysqli_sql_exception: Table 'db_akademik.mahasiswaa' doesn't exist in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 01:34:02 --> Table 'db_akademik.mahasiswaa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswaa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswaa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswaa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:34:20 --> mysqli_sql_exception: Table 'db_akademik.mahasiswaa' doesn't exist in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 01:34:20 --> Table 'db_akademik.mahasiswaa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswaa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswaa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswaa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:34:30 --> mysqli_sql_exception: Table 'db_akademik.mahasiswaa' doesn't exist in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 01:34:30 --> Table 'db_akademik.mahasiswaa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswaa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswaa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswaa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 01:35:02 --> mysqli_sql_exception: Table 'db_akademik.mahasiswaa' doesn't exist in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 01:35:02 --> Table 'db_akademik.mahasiswaa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `mahasiswaa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `mahasiswaa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `mahasiswaa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `mahasiswaa`', [], false)
+ 5 APPPATH\Models\MahasiswaModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswaa.php(14): App\Models\MahasiswaModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 02:39:40 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(30): App\Models\MahasiswaModel->insertData(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 02:39:40 --> Unknown column 'nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama`, `jeniskelamin`, `tgllahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'1221-02-12\', \'sads\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_mahasiswa` (`nim`, `nama`, `jeniskelamin`, `tgllahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'1221-02-12\', \'sads\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_mahasiswa` (`nim`, `nama`, `jeniskelamin`, `tgllahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'1221-02-12\', \'sads\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama`, `jeniskelamin`, `tgllahir`, `alamat`) VALUES (:nim:, :nama:, :jeniskelamin:, :tgllahir:, :alamat:)', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Mahasiswaa.php(30): App\Models\MahasiswaModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 02:41:15 --> mysqli_sql_exception: Duplicate entry '2111016210014' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(30): App\Models\MahasiswaModel->insertData(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 02:41:15 --> Duplicate entry '2111016210014' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'2001-02-12\', \'as\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'2001-02-12\', \'as\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'2001-02-12\', \'as\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (:nim:, :nama_mhs:, :jenis_kelamin:, :tgl_lahir:, :alamat:)', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Mahasiswaa.php(30): App\Models\MahasiswaModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-29 02:41:48 --> mysqli_sql_exception: Duplicate entry '2111016210014' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(30): App\Models\MahasiswaModel->insertData(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-29 02:41:48 --> Duplicate entry '2111016210014' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'2001-02-12\', \'as\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'2001-02-12\', \'as\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'jaya\', \'Laki-laki\', \'2001-02-12\', \'as\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (:nim:, :nama_mhs:, :jenis_kelamin:, :tgl_lahir:, :alamat:)', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Mahasiswaa.php(30): App\Models\MahasiswaModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 02:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 02:52:18 --> Undefined variable $validation
+in APPPATH\Views\v_mahasiswaa_add.php on line 17.
+ 1 APPPATH\Views\v_mahasiswaa_add.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_mahasiswaa_add.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_mahasiswaa_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswaa_add', [], true)
+ 5 APPPATH\Views\template.php(19): view('v_mahasiswaa_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswaa.php(73): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-29 02:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-29 02:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

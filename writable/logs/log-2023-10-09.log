@@ -1,0 +1,15 @@
+CRITICAL - 2023-10-09 06:36:15 --> Attempt to read property "nim" on null
+in APPPATH\Views\v_mahasiswaa_edit.php on line 15.
+ 1 APPPATH\Views\v_mahasiswaa_edit.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_mahasiswaa_edit.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_mahasiswaa_edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswaa_edit', [], true)
+ 5 APPPATH\Views\template.php(317): view('v_mahasiswaa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswaa.php(62): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->edit('assets', 'img', 'lmbngulm.png')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

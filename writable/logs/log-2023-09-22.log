@@ -1,0 +1,330 @@
+CRITICAL - 2023-09-22 00:44:10 --> Invalid file: "v_checkpass.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_checkpass.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_checkpass', [], true)
+ 3 APPPATH\Controllers\CheckPass.php(5): view('v_checkpass')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CheckPass->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckPass))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:44:15 --> Invalid file: "v_checkpass.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_checkpass.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_checkpass', [], true)
+ 3 APPPATH\Controllers\CheckPass.php(5): view('v_checkpass')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CheckPass->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckPass))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:44:20 --> Invalid file: "v_checkpass.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_checkpass.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_checkpass', [], true)
+ 3 APPPATH\Controllers\CheckPass.php(5): view('v_checkpass')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CheckPass->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckPass))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:47:44 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(4): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:47:48 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(4): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:48:30 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(4): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:49:11 --> Invalid file: "v_checkpass.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_checkpass.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_checkpass', [], true)
+ 3 APPPATH\Controllers\CheckPass.php(5): view('v_checkpass')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CheckPass->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckPass))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:49:25 --> Invalid file: "v_checkpass.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_checkpass.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_checkpass', [], true)
+ 3 APPPATH\Controllers\CheckPass.php(5): view('v_checkpass')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\CheckPass->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CheckPass))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:49:57 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(9): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:50:50 --> Call to undefined function form_open()
+in APPPATH\Views\v_mahasiswa_add.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_add.php', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(9): view('v_mahasiswa_add.php')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:50:51 --> Call to undefined function form_open()
+in APPPATH\Views\v_mahasiswa_add.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_add.php', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(9): view('v_mahasiswa_add.php')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:50:52 --> Call to undefined function form_open()
+in APPPATH\Views\v_mahasiswa_add.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_add.php', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(9): view('v_mahasiswa_add.php')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:51:03 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(9): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:51:27 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(9): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:51:35 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(9): view('mhs/v_mahasiswa_add')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:57:11 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:57:33 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:57:39 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:58:39 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:58:52 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 00:59:11 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:00:11 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:00:33 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:00:43 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:01:27 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:03:48 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(5): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:04:12 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(5): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:05:03 --> Call to undefined function form_open()
+in APPPATH\Views\v_mahasiswa_add.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_add', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(5): view('v_mahasiswa_add')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:05:10 --> Call to undefined function form_open()
+in APPPATH\Views\v_mahasiswa_add.php on line 3.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_add', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(5): view('v_mahasiswa_add')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:15:33 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:15:36 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:16:56 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:19:28 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:20:07 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 01:34:13 --> Invalid file: "mhs/v_mahasiswa_add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mhs/v_mahasiswa_add.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('mhs/v_mahasiswa_add.php', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(10): view('mhs/v_mahasiswa_add.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-22 02:01:46 --> Undefined variable $data
+in APPPATH\Controllers\Mahasiswa.php on line 74.
+ 1 APPPATH\Controllers\Mahasiswa.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Controllers\\Mahasiswa.php', 74)
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Controllers\\Mahasiswa.php')
+ 3 SYSTEMPATH\Router\Router.php(510): CodeIgniter\Router\AutoRouter->getRoute('mahasiswa/save', 'post')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('mahasiswa/save')
+ 5 SYSTEMPATH\CodeIgniter.php(813): CodeIgniter\Router\Router->handle('mahasiswa/save')
+ 6 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

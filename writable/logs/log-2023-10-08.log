@@ -1,0 +1,259 @@
+ERROR - 2023-10-08 06:47:00 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 06:47:00 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-08 06:56:54 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 06:56:54 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-08 06:57:34 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 06:57:34 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-08 07:01:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 07:01:30 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = \'2111016210011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswaa.php(96): App\Models\MahasiswaModel->deleteData('2111016210011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->delete('2111016210011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-08 07:05:00 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 07:05:00 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_2` FOREIGN KEY (`kode_mk`) REFERENCES `tb_matakuliah` (`kode_mk`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = \'12321\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_matakuliah`
+WHERE `kode_mk` = :kode_mk:', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\MatakuliahC.php(93): App\Models\MatakuliahModel->deleteData('12321')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->delete('12321')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-08 07:12:26 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_3` FOREIGN KEY (`nip`) REFERENCES `tb_dosen` (`nip`)) in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\DosenModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\DosenC.php(87): App\Models\DosenModel->deleteData('2193201')
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\DosenC->delete('2193201')
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DosenC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 07:12:26 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_akademik`.`tb_perkuliahan`, CONSTRAINT `tb_perkuliahan_ibfk_3` FOREIGN KEY (`nip`) REFERENCES `tb_dosen` (`nip`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb_dosen`
+WHERE `nip` = \'2193201\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb_dosen`
+WHERE `nip` = \'2193201\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb_dosen`
+WHERE `nip` = \'2193201\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb_dosen`
+WHERE `nip` = :nip:', [...], false)
+ 5 APPPATH\Models\DosenModel.php(41): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\DosenC.php(87): App\Models\DosenModel->deleteData('2193201')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DosenC->delete('2193201')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DosenC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-08 07:17:17 --> mysqli_sql_exception: Duplicate entry '21221' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(45): App\Models\MatakuliahModel->insertData(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->submit()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-08 07:17:17 --> Duplicate entry '21221' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`, `semester`) VALUES (\'21221\', \'Bahasa Indonesia\', \'3\', \'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`, `semester`) VALUES (\'21221\', \'Bahasa Indonesia\', \'3\', \'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`, `semester`) VALUES (\'21221\', \'Bahasa Indonesia\', \'3\', \'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`, `semester`) VALUES (:kode_mk:, :nama_mk:, :sks:, :semester:)', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\MatakuliahC.php(45): App\Models\MatakuliahModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 07:22:34 --> Undefined variable $mahasiswa
+in APPPATH\Views\v_perkuliahan_add.php on line 8.
+ 1 APPPATH\Views\v_perkuliahan_add.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan_add.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan_add', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(37): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 07:22:42 --> Undefined variable $mahasiswa
+in APPPATH\Views\v_perkuliahan_add.php on line 8.
+ 1 APPPATH\Views\v_perkuliahan_add.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan_add.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan_add', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(37): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 07:24:49 --> unlink(C:\xampp\htdocs\codeignite\cid\writable\debugbar/debugbar_1696749524.110663.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696749524.110663.json): No such file or directory', 'C:\\xampp\\htdocs\\codeignite\\cid\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696749524.110663.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1696749888.116549', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 07:24:49 --> unlink(C:\xampp\htdocs\codeignite\cid\writable\debugbar/debugbar_1696749516.711099.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696749516.711099.json): No such file or directory', 'C:\\xampp\\htdocs\\codeignite\\cid\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696749516.711099.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1696749883.384671', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 09:58:19 --> unlink(C:\xampp\htdocs\codeignite\cid\writable\debugbar/debugbar_1696758939.586869.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696758939.586869.json): No such file or directory', 'C:\\xampp\\htdocs\\codeignite\\cid\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696758939.586869.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1696759098.018994', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

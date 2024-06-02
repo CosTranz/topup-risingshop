@@ -1,0 +1,815 @@
+CRITICAL - 2023-10-04 03:08:33 --> unlink(C:\xampp\htdocs\codeignite\cid\writable\debugbar/debugbar_1696385395.921631.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696385395.921631.json): No such file or directory', 'C:\\xampp\\htdocs\\codeignite\\cid\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696385395.921631.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1696388908.909198', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:08:33 --> unlink(C:\xampp\htdocs\codeignite\cid\writable\debugbar/debugbar_1696385395.921631.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696385395.921631.json): No such file or directory', 'C:\\xampp\\htdocs\\codeignite\\cid\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\codeignite\\cid\\writable\\debugbar/debugbar_1696385395.921631.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1696388910.730057', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:33:21 --> Undefined variable $mahasiswa
+in APPPATH\Views\v_perkuliahan.php on line 20.
+ 1 APPPATH\Views\v_perkuliahan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:34:11 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 24.
+ 1 APPPATH\Views\v_perkuliahan.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:37:10 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:37:43 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:38:52 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:38:58 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:39:44 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:39:45 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:39:46 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 03:40:17 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 04:01:23 --> mysqli_sql_exception: Table 'db_akademik.tb_mahasiswa' doesn't exist in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(18): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 04:01:23 --> Table 'db_akademik.tb_mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_mahasiswa`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_mahasiswa`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_mahasiswa`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_mahasiswa`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(18): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:12:55 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:13:00 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(21): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:15:24 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:16:02 --> Undefined variable $tb_perkuliahan
+in APPPATH\Views\v_perkuliahan.php on line 25.
+ 1 APPPATH\Views\v_perkuliahan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_perkuliahan', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:16:58 --> Undefined variable $tb_perkuliahan
+in APPPATH\Views\v_perkuliahan.php on line 25.
+ 1 APPPATH\Views\v_perkuliahan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tb_perkuliahan', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:17:08 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:17:13 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 30.
+ 1 APPPATH\Views\v_perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:18:57 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 38.
+ 1 APPPATH\Views\v_perkuliahan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:18:59 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 38.
+ 1 APPPATH\Views\v_perkuliahan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:19:01 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 38.
+ 1 APPPATH\Views\v_perkuliahan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:22:16 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 38.
+ 1 APPPATH\Views\v_perkuliahan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:22:18 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 38.
+ 1 APPPATH\Views\v_perkuliahan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:22:19 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\v_perkuliahan.php on line 38.
+ 1 APPPATH\Views\v_perkuliahan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:23:08 --> Undefined property: stdClass::$nama_mk
+in APPPATH\Views\v_perkuliahan.php on line 38.
+ 1 APPPATH\Views\v_perkuliahan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:23:49 --> Undefined property: stdClass::$nama_dosen
+in APPPATH\Views\v_perkuliahan.php on line 49.
+ 1 APPPATH\Views\v_perkuliahan.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_dosen', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:27:30 --> Undefined property: stdClass::$nama_mk
+in APPPATH\Views\v_perkuliahan.php on line 34.
+ 1 APPPATH\Views\v_perkuliahan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_mk', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 04:45:03 --> mysqli_sql_exception: Duplicate entry '2111016210014' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MahasiswaModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\Mahasiswaa.php(36): App\Models\MahasiswaModel->insertData(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 04:45:03 --> Duplicate entry '2111016210014' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'Bani\', \'Laki-laki\', \'2002-12-22\', \'GH Ilkom 21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'Bani\', \'Laki-laki\', \'2002-12-22\', \'GH Ilkom 21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'2111016210014\', \'Bani\', \'Laki-laki\', \'2002-12-22\', \'GH Ilkom 21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (:nim:, :nama_mhs:, :jenis_kelamin:, :tgl_lahir:, :alamat:)', [...], false)
+ 5 APPPATH\Models\MahasiswaModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Mahasiswaa.php(36): App\Models\MahasiswaModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswaa->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswaa))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:45:17 --> Undefined property: stdClass::$nama_mhs
+in APPPATH\Views\v_perkuliahan.php on line 34.
+ 1 APPPATH\Views\v_perkuliahan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_mhs', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 04:46:33 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(44): App\Models\MatakuliahModel->insertData(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->submit()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 04:46:33 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (\'2000110\', \'Pemograman Web Dasar\', \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (\'2000110\', \'Pemograman Web Dasar\', \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (\'2000110\', \'Pemograman Web Dasar\', \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (:kode_mk:, :nama_mk:, :sks:)', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\MatakuliahC.php(44): App\Models\MatakuliahModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 04:46:44 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\MatakuliahModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\MatakuliahC.php(44): App\Models\MatakuliahModel->insertData(Array)
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\MatakuliahC->submit()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 04:46:44 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (\'12\', \'Pemograman Web Dasar\', \'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (\'12\', \'Pemograman Web Dasar\', \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (\'12\', \'Pemograman Web Dasar\', \'4\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_matakuliah` (`kode_mk`, `nama_mk`, `sks`) VALUES (:kode_mk:, :nama_mk:, :sks:)', [...], false)
+ 5 APPPATH\Models\MatakuliahModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\MatakuliahC.php(44): App\Models\MatakuliahModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\MatakuliahC->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MatakuliahC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 04:46:52 --> Undefined property: stdClass::$nama_mhs
+in APPPATH\Views\v_perkuliahan.php on line 34.
+ 1 APPPATH\Views\v_perkuliahan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_mhs', 'C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\v_perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan.php', [], true)
+ 5 APPPATH\Views\template.php(56): view('v_perkuliahan.php')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\codeignite\\cid\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\PerkuliahanC.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 04:57:22 --> mysqli_sql_exception: Unknown column 'm.nim' in 'field list' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `m`.`nim...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m`.`nim...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m`.`nim...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `m`.`nim...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 04:57:22 --> Unknown column 'm.nim' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 04:57:24 --> mysqli_sql_exception: Unknown column 'm.nim' in 'field list' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `m`.`nim...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m`.`nim...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m`.`nim...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `m`.`nim...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 04:57:24 --> Unknown column 'm.nim' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 04:57:28 --> mysqli_sql_exception: Unknown column 'm.nim' in 'field list' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `m`.`nim...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m`.`nim...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m`.`nim...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `m`.`nim...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 04:57:28 --> Unknown column 'm.nim' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `m`.`nim`, `m`.`nama_mhs`, `mk`.`kode_mk`, `mk`.`nama_mk`, `d`.`nama_dosen`, `p`.`nilai`
+FROM `tb_perkuliahan`
+JOIN `tb_perkuliahan` `p` ON `p`.`nim` = `m`.`nim`
+JOIN `tb_matakuliah` `mk` ON `mk`.`kode_mk` = `p`.`kode_mk`
+JOIN `tb_dosen` `d` ON `d`.`nip` = `p`.`nip`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 05:33:15 --> mysqli_sql_exception: Table 'db_akademik.tabel_lain' doesn't exist in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perk...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perk...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perk...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perk...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 05:33:15 --> Table 'db_akademik.tabel_lain' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perkuliahan`.*, `tabel_lain`.`kolom_tabel_lain`
+FROM `tb_perkuliahan`
+LEFT JOIN `tabel_lain` ON `tabel_lain`.`perkuliahan_id` = `tb_perkuliahan`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perkuliahan`.*, `tabel_lain`.`kolom_tabel_lain`
+FROM `tb_perkuliahan`
+LEFT JOIN `tabel_lain` ON `tabel_lain`.`perkuliahan_id` = `tb_perkuliahan`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perkuliahan`.*, `tabel_lain`.`kolom_tabel_lain`
+FROM `tb_perkuliahan`
+LEFT JOIN `tabel_lain` ON `tabel_lain`.`perkuliahan_id` = `tb_perkuliahan`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perkuliahan`.*, `tabel_lain`.`kolom_tabel_lain`
+FROM `tb_perkuliahan`
+LEFT JOIN `tabel_lain` ON `tabel_lain`.`perkuliahan_id` = `tb_perkuliahan`.`id`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 05:34:31 --> mysqli_sql_exception: Unknown column 'tb_matakuliah.perkuliahan_id' in 'on clause' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 05:34:31 --> Unknown column 'tb_matakuliah.perkuliahan_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`perkuliahan_id` = `tb_perkuliahan`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`perkuliahan_id` = `tb_perkuliahan`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`perkuliahan_id` = `tb_perkuliahan`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`perkuliahan_id` = `tb_perkuliahan`.`id`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 05:35:50 --> mysqli_sql_exception: Unknown column 'tb_mahasiswa.nama' in 'field list' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perk...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perk...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perk...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perk...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 05:35:50 --> Unknown column 'tb_mahasiswa.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama` as `nama_mahasiswa`, `tb_matakuliah`.`nama` as `nama_matakuliah`, `tb_dosen`.`nama` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama` as `nama_mahasiswa`, `tb_matakuliah`.`nama` as `nama_matakuliah`, `tb_dosen`.`nama` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama` as `nama_mahasiswa`, `tb_matakuliah`.`nama` as `nama_matakuliah`, `tb_dosen`.`nama` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama` as `nama_mahasiswa`, `tb_matakuliah`.`nama` as `nama_matakuliah`, `tb_dosen`.`nama` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-04 05:36:20 --> mysqli_sql_exception: Unknown column 'tb_mahasiswa.id' in 'on clause' in C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\codeignite\cid\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perk...', 0)
+#1 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perk...')
+#2 C:\xampp\htdocs\codeignite\cid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perk...')
+#3 C:\xampp\htdocs\codeignite\cid\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perk...', Array, false)
+#4 C:\xampp\htdocs\codeignite\cid\app\Models\PerkuliahanModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\codeignite\cid\app\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+#6 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+#7 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+#8 C:\xampp\htdocs\codeignite\cid\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\codeignite\cid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-04 05:36:20 --> Unknown column 'tb_mahasiswa.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs` as `nama_mahasiswa`, `tb_matakuliah`.`nama_mk` as `nama_matakuliah`, `tb_dosen`.`nama_dosen` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs` as `nama_mahasiswa`, `tb_matakuliah`.`nama_mk` as `nama_matakuliah`, `tb_dosen`.`nama_dosen` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs` as `nama_mahasiswa`, `tb_matakuliah`.`nama_mk` as `nama_matakuliah`, `tb_dosen`.`nama_dosen` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `tb_perkuliahan`.*, `tb_mahasiswa`.`nama_mhs` as `nama_mahasiswa`, `tb_matakuliah`.`nama_mk` as `nama_matakuliah`, `tb_dosen`.`nama_dosen` as `nama_dosen`
+FROM `tb_perkuliahan`
+LEFT JOIN `tb_mahasiswa` ON `tb_mahasiswa`.`id` = `tb_perkuliahan`.`mahasiswa_id`
+LEFT JOIN `tb_matakuliah` ON `tb_matakuliah`.`id` = `tb_perkuliahan`.`matakuliah_id`
+LEFT JOIN `tb_dosen` ON `tb_dosen`.`id` = `tb_perkuliahan`.`dosen_id`', [], false)
+ 5 APPPATH\Models\PerkuliahanModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\PerkuliahanC.php(16): App\Models\PerkuliahanModel->getAllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\PerkuliahanC->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PerkuliahanC))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

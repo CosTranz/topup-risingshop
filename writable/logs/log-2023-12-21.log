@@ -1,0 +1,1006 @@
+INFO - 2023-12-21 01:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 01:43:56 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 APPPATH\Views\v_transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 01:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 01:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 01:55:21 --> Undefined variable $con
+in APPPATH\Views\v_transaksi.php on line 50.
+ 1 APPPATH\Views\v_transaksi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $con', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 01:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 01:55:45 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 APPPATH\Views\v_transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 01:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 01:55:47 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 APPPATH\Views\v_transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 01:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:01:46 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 4 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:02:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 4 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:03:22 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 APPPATH\Views\v_transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:05:31 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 APPPATH\Views\v_transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:09:13 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 APPPATH\Views\v_transaksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:09:24 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 4 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:13:40 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_transaksi.php on line 54.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 4 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:14:34 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_transaksi.php on line 51.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 4 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:16:55 --> Attempt to read property "id_transaksi" on array
+in APPPATH\Views\v_transaksi.php on line 50.
+ 1 APPPATH\Views\v_transaksi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_transaksi" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(24): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:17:03 --> Undefined array key "name_game"
+in APPPATH\Views\v_transaksi.php on line 52.
+ 1 APPPATH\Views\v_transaksi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_game"', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(24): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:17:15 --> Attempt to read property "id_transaksi" on array
+in APPPATH\Views\v_transaksi.php on line 58.
+ 1 APPPATH\Views\v_transaksi.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_transaksi" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(24): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:18:52 --> Undefined array key "name_game"
+in APPPATH\Views\v_transaksi.php on line 52.
+ 1 APPPATH\Views\v_transaksi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_game"', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(24): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:21:09 --> Attempt to read property "id_transaksi" on array
+in APPPATH\Views\v_transaksi.php on line 49.
+ 1 APPPATH\Views\v_transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_transaksi" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:22:06 --> Attempt to read property "id_transaksi" on array
+in APPPATH\Views\v_transaksi.php on line 49.
+ 1 APPPATH\Views\v_transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_transaksi" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:22:19 --> Attempt to read property "customer" on array
+in APPPATH\Views\v_transaksi.php on line 50.
+ 1 APPPATH\Views\v_transaksi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customer" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 02:23:31 --> Undefined property: stdClass::$name_game
+in APPPATH\Views\v_transaksi.php on line 51.
+ 1 APPPATH\Views\v_transaksi.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 02:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:27:54 --> Undefined variable $getData
+in APPPATH\Views\gamepages\landingpage.php on line 34.
+ 1 APPPATH\Views\gamepages\landingpage.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\landingpage.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\landingpage.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/landingpage', [], true)
+ 5 APPPATH\Views\gamepages\template.php(71): view('gamepages/landingpage')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Main.php(13): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 03:29:17 --> Undefined variable $activePage
+in APPPATH\Views\gamepages\template.php on line 52.
+ 1 APPPATH\Views\gamepages\template.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activePage', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 5 APPPATH\Controllers\Main.php(13): view('gamepages/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 03:30:33 --> Undefined variable $activePage
+in APPPATH\Views\gamepages\template.php on line 52.
+ 1 APPPATH\Views\gamepages\template.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activePage', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 5 APPPATH\Controllers\Main.php(13): view('gamepages/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:55:39 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 97.
+ 1 APPPATH\Views\gamepages\topup_add.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-2.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:55:39 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 97.
+ 1 APPPATH\Views\gamepages\topup_add.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-3.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:55:39 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 97.
+ 1 APPPATH\Views\gamepages\topup_add.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:56:19 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 97.
+ 1 APPPATH\Views\gamepages\topup_add.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-3.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:56:19 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 97.
+ 1 APPPATH\Views\gamepages\topup_add.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-2.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:56:19 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 97.
+ 1 APPPATH\Views\gamepages\topup_add.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 97)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:57:04 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 49.
+ 1 APPPATH\Views\gamepages\topup_add.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-2.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:57:05 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 49.
+ 1 APPPATH\Views\gamepages\topup_add.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:57:05 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 49.
+ 1 APPPATH\Views\gamepages\topup_add.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-3.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:57:49 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 39.
+ 1 APPPATH\Views\gamepages\topup_add.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:58:32 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 46.
+ 1 APPPATH\Views\gamepages\topup_add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:59:25 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 46.
+ 1 APPPATH\Views\gamepages\topup_add.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 03:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:59:51 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 47.
+ 1 APPPATH\Views\gamepages\topup_add.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:30 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 47.
+ 1 APPPATH\Views\gamepages\topup_add.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:38 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 47.
+ 1 APPPATH\Views\gamepages\topup_add.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:55 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 59.
+ 1 APPPATH\Views\gamepages\topup_add.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:01:37 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 59.
+ 1 APPPATH\Views\gamepages\topup_add.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:01:45 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 59.
+ 1 APPPATH\Views\gamepages\topup_add.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-21 04:03:01 --> Undefined variable $row
+in APPPATH\Views\gamepages\topup_add.php on line 23.
+ 1 APPPATH\Views\gamepages\topup_add.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF314')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:03:56 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 65.
+ 1 APPPATH\Views\gamepages\topup_add.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(72): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('assets', 'img', 'portfolio', 'portfolio-1.jpg')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:23:08 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\gamepages\template.php on line 57.
+ 1 APPPATH\Views\gamepages\template.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php', 57)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 5 APPPATH\Controllers\Main.php(25): view('gamepages/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->topup()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:26:00 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 52.
+ 1 APPPATH\Views\gamepages\topup_add.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(73): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('index.html')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:27:43 --> Attempt to read property "name_game" on null
+in APPPATH\Views\gamepages\topup_add.php on line 52.
+ 1 APPPATH\Views\gamepages\topup_add.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(73): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('index.html')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-21 04:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 13:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 15:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 15:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 15:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 16:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

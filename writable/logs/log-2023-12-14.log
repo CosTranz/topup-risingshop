@@ -1,0 +1,1129 @@
+INFO - 2023-12-14 11:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 11:31:24 --> unlink(C:\xampp\htdocs\risingshop\writable\debugbar/debugbar_1702371193.658498.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702371193.658498.json): No such file or directory', 'C:\\xampp\\htdocs\\risingshop\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702371193.658498.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1702553464.743601', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:44:18 --> unlink(C:\xampp\htdocs\risingshop\writable\debugbar/debugbar_1702553464.743601.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702553464.743601.json): No such file or directory', 'C:\\xampp\\htdocs\\risingshop\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702553464.743601.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1702554257.104010', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:44:18 --> unlink(C:\xampp\htdocs\risingshop\writable\debugbar/debugbar_1702553456.418062.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702553456.418062.json): No such file or directory', 'C:\\xampp\\htdocs\\risingshop\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702553456.418062.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1702554254.032433', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:44:20 --> Attempt to read property "password" on array
+in APPPATH\Controllers\User.php on line 41.
+ 1 APPPATH\Controllers\User.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\User.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 11:45:14 --> mysqli_sql_exception: Unknown column 'tb_user.id' in 'where clause' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\risingshop\system\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\risingshop\system\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'jaya')
+#6 C:\xampp\htdocs\risingshop\app\Controllers\User.php(35): CodeIgniter\BaseModel->find('jaya')
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\User->cek()
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-14 11:45:14 --> Unknown column 'tb_user.id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_user`
+WHERE `tb_user`.`id` = \'jaya\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_user`
+WHERE `tb_user`.`id` = \'jaya\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_user`
+WHERE `tb_user`.`id` = \'jaya\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_user`
+WHERE `tb_user`.`id` = :tb_user.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(true, 'jaya')
+ 7 APPPATH\Controllers\User.php(35): CodeIgniter\BaseModel->find('jaya')
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 11:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 11:47:32 --> unlink(C:\xampp\htdocs\risingshop\writable\debugbar/debugbar_1702553620.477523.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702553620.477523.json): No such file or directory', 'C:\\xampp\\htdocs\\risingshop\\system\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('C:\\xampp\\htdocs\\risingshop\\writable\\debugbar/debugbar_1702553620.477523.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(495): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1702554449.357095', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(474): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(148): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 11:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 11:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 12:00:57 --> mysqli_sql_exception: Duplicate entry '1' for key 'PRIMARY' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(54): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 12:00:57 --> Duplicate entry '1' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `metode`, `jumlah`) VALUES (\'00000001\', \'PayPal\', \'20000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `metode`, `jumlah`) VALUES (\'00000001\', \'PayPal\', \'20000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `metode`, `jumlah`) VALUES (\'00000001\', \'PayPal\', \'20000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `metode`, `jumlah`) VALUES (:id_transaksi:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(54): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:03:18 --> Undefined property: stdClass::$name_game
+in APPPATH\Views\v_transaksi.php on line 49.
+ 1 APPPATH\Views\v_transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(21): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:04:38 --> Undefined property: stdClass::$name_game
+in APPPATH\Views\v_transaksi.php on line 49.
+ 1 APPPATH\Views\v_transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(21): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:10:37 --> Undefined variable $name_game
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:10:53 --> Undefined variable $id_game
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:12:10 --> Undefined variable $id_game
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:16:55 --> Undefined variable $mahasiswa
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:17:25 --> Undefined variable $name_game
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:18:12 --> Undefined variable $id_game
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:19:46 --> Undefined variable $name_game
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 12:23:22 --> Undefined variable $name_game
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:23:45 --> Undefined property: stdClass::$name_game
+in APPPATH\Views\v_transaksi.php on line 49.
+ 1 APPPATH\Views\v_transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 49)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(21): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:26:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_transaksi.php on line 48.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 4 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\Transaksi.php(21): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 12:31:15 --> mysqli_sql_exception: Duplicate entry '10000001' for key 'PRIMARY' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(55): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 12:31:15 --> Duplicate entry '10000001' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `metode`, `jumlah`) VALUES (\'10000001\', \'DF312\', \'PayPal\', \'20000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `metode`, `jumlah`) VALUES (\'10000001\', \'DF312\', \'PayPal\', \'20000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `metode`, `jumlah`) VALUES (\'10000001\', \'DF312\', \'PayPal\', \'20000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(55): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:41:00 --> Undefined variable $gameDetails
+in APPPATH\Controllers\Transaksi.php on line 45.
+ 1 APPPATH\Controllers\Transaksi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gameDetails', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Transaksi.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 12:42:21 --> mysqli_sql_exception: Duplicate entry '10000001' for key 'PRIMARY' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(56): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 12:42:21 --> Duplicate entry '10000001' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (\'10000001\', \'DF314\', \'121212323\', \'PayPal\', \'20000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (\'10000001\', \'DF314\', \'121212323\', \'PayPal\', \'20000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (\'10000001\', \'DF314\', \'121212323\', \'PayPal\', \'20000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(56): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 12:48:53 --> mysqli_sql_exception: Unknown column 'name_game' in 'field list' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(53): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 12:48:53 --> Unknown column 'name_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'PUBG\', \'19201220121\', \'ShopeePay\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'PUBG\', \'19201220121\', \'ShopeePay\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'PUBG\', \'19201220121\', \'ShopeePay\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :name_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(53): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 12:49:05 --> mysqli_sql_exception: Unknown column 'name_game' in 'field list' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(53): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 12:49:05 --> Unknown column 'name_game' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'PUBG\', \'19201220121\', \'ShopeePay\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'PUBG\', \'19201220121\', \'ShopeePay\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'PUBG\', \'19201220121\', \'ShopeePay\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `name_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :name_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(53): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 12:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 12:58:45 --> Undefined property: stdClass::$name_game
+in APPPATH\Views\v_transaksi.php on line 51.
+ 1 APPPATH\Views\v_transaksi.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name_game', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_transaksi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_transaksi', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_transaksi')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Transaksi.php(21): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 12:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 13:04:17 --> Undefined variable $userData
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(35): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 13:06:14 --> Too few arguments to function App\Controllers\Transaksi::topupadd(), 1 passed in C:\xampp\htdocs\risingshop\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\Transaksi.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 13:08:19 --> Undefined variable $userData
+in APPPATH\Views\gamepages\topup_add.php on line 40.
+ 1 APPPATH\Views\gamepages\topup_add.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(87): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(37): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 13:12:18 --> Too few arguments to function App\Controllers\Transaksi::topupadd(), 1 passed in C:\xampp\htdocs\risingshop\system\CodeIgniter.php on line 932 and exactly 2 expected
+in APPPATH\Controllers\Transaksi.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF311')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 13:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 13:32:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Transaksi.php on line 55.
+ 1 APPPATH\Controllers\Transaksi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Transaksi.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 13:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 13:34:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `tb_transaksi_ibfk_2` FOREIGN KEY (`username`) REFERENCES `tb_user` (`username`)) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(64): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 13:34:19 --> Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `tb_transaksi_ibfk_2` FOREIGN KEY (`username`) REFERENCES `tb_user` (`username`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :username:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(64): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 13:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 13:36:25 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `tb_transaksi_ibfk_2` FOREIGN KEY (`username`) REFERENCES `tb_user` (`username`)) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(64): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 13:36:25 --> Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `tb_transaksi_ibfk_2` FOREIGN KEY (`username`) REFERENCES `tb_user` (`username`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :username:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(64): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 13:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 13:37:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `username` FOREIGN KEY (`username`) REFERENCES `tb_user` (`username`)) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(64): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 13:37:45 --> Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `username` FOREIGN KEY (`username`) REFERENCES `tb_user` (`username`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'\', \'DF312\', \'19201220121\', \'PayPal\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `username`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :username:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(64): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 13:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 13:43:34 --> Undefined variable $pesan
+in APPPATH\Views\Login\v_login.php on line 73.
+ 1 APPPATH\Views\Login\v_login.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesan', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\Login\\v_login.php', 73)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\Login\\v_login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Login/v_login', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(20): view('Login/v_login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 13:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 13:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 13:58:47 --> Undefined variable $username
+in APPPATH\Views\layout\navbar.php on line 98.
+ 1 APPPATH\Views\layout\navbar.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php', 98)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 5 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(26): view('layout/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:01:30 --> Undefined variable $username
+in APPPATH\Views\layout\navbar.php on line 98.
+ 1 APPPATH\Views\layout\navbar.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php', 98)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 5 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:02:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`)) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:02:01 --> Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:02:56 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`)) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:02:56 --> Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:04:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`)) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(56): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:04:03 --> Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'ShopeePay\', \'12000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(56): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:06:06 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`)) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(55): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:06:06 --> Cannot add or update a child row: a foreign key constraint fails (`db_risingshop`.`tb_transaksi`, CONSTRAINT `customer` FOREIGN KEY (`customer`) REFERENCES `tb_user` (`customer`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'Dana\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'Dana\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', \'19201220121\', \'Dana\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(55): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:07:19 --> mysqli_sql_exception: Column 'customer' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(56): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:07:19 --> Column 'customer' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'Dana\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'Dana\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'Dana\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :customer:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(56): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:09:12 --> mysqli_sql_exception: Column 'customer' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(65): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:09:12 --> Column 'customer' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'Dana\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'Dana\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'Dana\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :customer:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(65): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:20:49 --> mysqli_sql_exception: Column 'customer' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:20:49 --> Column 'customer' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF312\', NULL, \'19201220121\', \'PayPal\', \'12000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF312\', NULL, \'19201220121\', \'PayPal\', \'12000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF312\', NULL, \'19201220121\', \'PayPal\', \'12000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :customer:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:21:53 --> Undefined variable $username
+in APPPATH\Views\layout\navbar.php on line 98.
+ 1 APPPATH\Views\layout\navbar.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php', 98)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 5 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:23:22 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\layout\navbar.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php', 2)
+ 2 APPPATH\Views\layout\navbar.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 6 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 7 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 8 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+10 APPPATH\Controllers\Dashboard.php(21): view('layout/template', [...])
+11 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+12 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+13 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:24:34 --> mysqli_sql_exception: Column 'customer' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:24:34 --> Column 'customer' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'PayPal\', \'200000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'PayPal\', \'200000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'19201220121\', \'PayPal\', \'200000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :customer:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-14 14:27:32 --> mysqli_sql_exception: Column 'customer' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:27:32 --> Column 'customer' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'123123\', \'PayPal\', \'12000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'123123\', \'PayPal\', \'12000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'123123\', \'PayPal\', \'12000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :customer:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-14 14:30:54 --> mysqli_sql_exception: Column 'customer' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-14 14:30:54 --> Column 'customer' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'123123\', \'PayPal\', \'12000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'123123\', \'PayPal\', \'12000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (NULL, \'DF311\', NULL, \'123123\', \'PayPal\', \'12000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_transaksi`, `id_game`, `customer`, `no_trans`, `metode`, `jumlah`) VALUES (:id_transaksi:, :id_game:, :customer:, :no_trans:, :metode:, :jumlah:)', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(47): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Transaksi.php(57): App\Models\TransaksiModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:31:58 --> Undefined variable $username
+in APPPATH\Views\layout\navbar.php on line 98.
+ 1 APPPATH\Views\layout\navbar.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php', 98)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 5 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(23): view('layout/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-14 14:32:32 --> Undefined variable $username
+in APPPATH\Views\layout\navbar.php on line 89.
+ 1 APPPATH\Views\layout\navbar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php', 89)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 5 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+ 9 APPPATH\Controllers\Dashboard.php(21): view('layout/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-14 14:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

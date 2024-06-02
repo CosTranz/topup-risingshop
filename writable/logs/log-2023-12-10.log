@@ -1,0 +1,380 @@
+INFO - 2023-12-10 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-10 14:43:32 --> Invalid file: "Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Dashboard', [], true)
+ 3 APPPATH\Views\layout\navbar.php(25): view('Dashboard')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 7 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+11 APPPATH\Controllers\Game.php(21): view('layout/template', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 14:43:43 --> Invalid file: "Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Dashboard', [], true)
+ 3 APPPATH\Views\layout\navbar.php(25): view('Dashboard')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 7 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+11 APPPATH\Controllers\Game.php(21): view('layout/template', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-10 14:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-10 14:43:48 --> Invalid file: "Dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dashboard.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Dashboard', [], true)
+ 3 APPPATH\Views\layout\navbar.php(25): view('Dashboard')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 7 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+11 APPPATH\Controllers\Dashboard.php(21): view('layout/template', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-10 14:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 14:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-10 15:16:32 --> Invalid file: "landingpage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landingpage.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('landingpage', [], true)
+ 3 APPPATH\Views\layout\navbar.php(120): view('landingpage')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 7 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+11 APPPATH\Controllers\Dashboard.php(21): view('layout/template', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-10 15:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-10 15:16:44 --> Invalid file: "landingpage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landingpage.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('landingpage', [], true)
+ 3 APPPATH\Views\layout\navbar.php(120): view('landingpage')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 7 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 8 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+ 9 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+11 APPPATH\Controllers\Dashboard.php(21): view('layout/template', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-10 15:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 15:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-10 15:27:14 --> Invalid file: "gamepages/landingpages.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('gamepages/landingpages.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/landingpages', [], true)
+ 3 APPPATH\Controllers\Main.php(8): view('gamepages/landingpages')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 15:55:20 --> Invalid file: "template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 3 APPPATH\Controllers\Main.php(11): view('template', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 15:55:40 --> Invalid file: "landingpage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landingpage.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('landingpage', [], true)
+ 3 APPPATH\Views\gamepages\template.php(86): view('landingpage')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 7 APPPATH\Controllers\Main.php(11): view('gamepages/template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 15:55:56 --> Invalid file: "gamingpages/landingpage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('gamingpages/landingpage.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamingpages/landingpage', [], true)
+ 3 APPPATH\Views\gamepages\template.php(86): view('gamingpages/landingpage')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 7 APPPATH\Controllers\Main.php(11): view('gamepages/template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 16:32:16 --> Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Main.php(69): view('register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->registersave()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 16:33:22 --> Invalid file: "gamepages/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('gamepages/register.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/register', [], true)
+ 3 APPPATH\Controllers\Main.php(69): view('gamepages/register', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->registersave()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 16:34:09 --> Invalid file: "main/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/index.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('main/index', [], true)
+ 3 APPPATH\Controllers\Main.php(69): view('main/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->registersave()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-10 16:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 16:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 16:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 16:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-10 16:50:58 --> Undefined variable $allUsers
+in APPPATH\Views\v_user.php on line 25.
+ 1 APPPATH\Views\v_user.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allUsers', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\User.php(19): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 16:55:35 --> Attempt to read property "username" on array
+in APPPATH\Views\v_user.php on line 29.
+ 1 APPPATH\Views\v_user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\User.php(19): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 16:57:39 --> Attempt to read property "username" on array
+in APPPATH\Views\v_user.php on line 29.
+ 1 APPPATH\Views\v_user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\User.php(18): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-10 16:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 16:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-10 16:58:35 --> Attempt to read property "username" on array
+in APPPATH\Views\v_user.php on line 29.
+ 1 APPPATH\Views\v_user.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\User.php(18): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 17:02:25 --> Attempt to read property "id_user" on array
+in APPPATH\Views\v_user.php on line 28.
+ 1 APPPATH\Views\v_user.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_user" on array', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\User.php(18): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 17:03:08 --> Undefined array key "id_user"
+in APPPATH\Views\v_user.php on line 27.
+ 1 APPPATH\Views\v_user.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\User.php(18): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 17:03:27 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_user.php on line 27.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 4 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\User.php(18): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-10 17:05:27 --> Undefined property: stdClass::$id_user
+in APPPATH\Views\v_user.php on line 27.
+ 1 APPPATH\Views\v_user.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_user', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_user.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_user', [], true)
+ 5 APPPATH\Views\layout\navbar.php(120): view('v_user')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(59): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\User.php(18): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\User->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-10 17:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 17:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 17:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-10 17:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

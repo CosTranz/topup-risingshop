@@ -1,0 +1,1028 @@
+INFO - 2023-12-28 00:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 00:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 00:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 00:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 00:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 01:32:24 --> mysqli_sql_exception: Unknown column 'id_topup' in 'field list' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(38): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 01:32:24 --> Unknown column 'id_topup' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (:id_topup:, :id_game:, :pilihan:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(38): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 01:33:28 --> mysqli_sql_exception: Unknown column 'id_topup' in 'field list' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(38): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 01:33:28 --> Unknown column 'id_topup' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (:id_topup:, :id_game:, :pilihan:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(38): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 01:34:04 --> mysqli_sql_exception: Unknown column 'id_topup' in 'field list' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(38): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 01:34:04 --> Unknown column 'id_topup' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', \'13ribu\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', \'13ribu\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (NULL, \'DF311\', \'13ribu\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_transaksi` (`id_topup`, `id_game`, `pilihan`) VALUES (:id_topup:, :id_game:, :pilihan:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(38): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:36:00 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_topup.php on line 50.
+ 1 APPPATH\Views\v_topup.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(21): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:36:03 --> Undefined property: stdClass::$top_up
+in APPPATH\Views\v_topup.php on line 50.
+ 1 APPPATH\Views\v_topup.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$top_up', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 50)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(21): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:36:19 --> Attempt to read property "name_game" on null
+in APPPATH\Controllers\Game.php on line 91.
+ 1 APPPATH\Controllers\Game.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Game.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 01:36:20 --> Attempt to read property "name_game" on null
+in APPPATH\Controllers\Game.php on line 91.
+ 1 APPPATH\Controllers\Game.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name_game" on null', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Game.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:38:39 --> Undefined variable $gameOptions
+in APPPATH\Views\v_topup.php on line 79.
+ 1 APPPATH\Views\v_topup.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $gameOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 79)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(21): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:41:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_topup.php on line 80.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 4 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 8 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+ 9 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+10 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+12 APPPATH\Controllers\Topup.php(24): view('layout/template', [...])
+13 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+14 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+15 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 01:48:14 --> mysqli_sql_exception: Unknown column 'topup_options' in 'field list' in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(55): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 01:48:14 --> Unknown column 'topup_options' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `topup_options`) VALUES (NULL, \'DF311\', \'[{\\"amount\\":\\"100 diamond\\",\\"price\\":\\"Rp 10.000\\"},{\\"amount\\":\\"200 diamond\\",\\"price\\":\\"Rp 20.000\\"}]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `topup_options`) VALUES (NULL, \'DF311\', \'[{\\"amount\\":\\"100 diamond\\",\\"price\\":\\"Rp 10.000\\"},{\\"amount\\":\\"200 diamond\\",\\"price\\":\\"Rp 20.000\\"}]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `topup_options`) VALUES (NULL, \'DF311\', \'[{\\"amount\\":\\"100 diamond\\",\\"price\\":\\"Rp 10.000\\"},{\\"amount\\":\\"200 diamond\\",\\"price\\":\\"Rp 20.000\\"}]\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `topup_options`) VALUES (:id_topup:, :id_game:, :topup_options:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(48): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(55): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:56:01 --> Undefined variable $diamondOptions
+in APPPATH\Views\gamepages\topup_add.php on line 180.
+ 1 APPPATH\Views\gamepages\topup_add.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diamondOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 180)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF312')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:58:12 --> Undefined variable $topupOptions
+in APPPATH\Views\gamepages\topup_add.php on line 178.
+ 1 APPPATH\Views\gamepages\topup_add.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF312')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:59:29 --> Undefined variable $topupOptions
+in APPPATH\Views\gamepages\topup_add.php on line 178.
+ 1 APPPATH\Views\gamepages\topup_add.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF312')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:59:32 --> Undefined variable $topupOptions
+in APPPATH\Views\gamepages\topup_add.php on line 178.
+ 1 APPPATH\Views\gamepages\topup_add.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF314')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:59:49 --> Undefined variable $topupOptions
+in APPPATH\Views\gamepages\topup_add.php on line 178.
+ 1 APPPATH\Views\gamepages\topup_add.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF314')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 01:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 01:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 01:59:53 --> Undefined variable $topupOptions
+in APPPATH\Views\gamepages\topup_add.php on line 178.
+ 1 APPPATH\Views\gamepages\topup_add.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF316')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:13:34 --> Undefined variable $topupOptions
+in APPPATH\Views\v_topup.php on line 116.
+ 1 APPPATH\Views\v_topup.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 116)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:13:36 --> Undefined variable $topupOptions
+in APPPATH\Views\v_topup.php on line 116.
+ 1 APPPATH\Views\v_topup.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 116)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:14:03 --> Undefined variable $topupOptions
+in APPPATH\Views\v_topup.php on line 116.
+ 1 APPPATH\Views\v_topup.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 116)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:19:16 --> Undefined variable $file_gambar
+in APPPATH\Controllers\Game.php on line 137.
+ 1 APPPATH\Controllers\Game.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file_gambar', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Game.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->update()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 02:20:25 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tb_game...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_game...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_game...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_game...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\GameModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Game.php(141): App\Models\GameModel->updateData('DF311', Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Game->update()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 02:20:25 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tb_game` SET `name_game` = \'PUBG\', `status` = \'Active\', `top_up` = \'UC Card\', `pilihan` = (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\')
+WHERE `id_game` = \'DF311\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_game` SET `name_game` = \'PUBG\', `status` = \'Active\', `top_up` = \'UC Card\', `pilihan` = (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\')
+WHERE `id_game` = \'DF311\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_game` SET `name_game` = \'PUBG\', `status` = \'Active\', `top_up` = \'UC Card\', `pilihan` = (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\')
+WHERE `id_game` = \'DF311\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_game` SET `name_game` = :name_game:, `status` = :status:, `top_up` = :top_up:, `pilihan` = :pilihan:
+WHERE `id_game` = :id_game:', [...], false)
+ 5 APPPATH\Models\GameModel.php(34): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Game.php(141): App\Models\GameModel->updateData('DF311', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 02:20:45 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tb_game...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_game...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_game...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_game...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\GameModel.php(34): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Game.php(141): App\Models\GameModel->updateData('DF311', Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Game->update()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 02:20:45 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `tb_game` SET `name_game` = \'PUBG\', `status` = \'Active\', `top_up` = \'UC Card\', `pilihan` = (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\')
+WHERE `id_game` = \'DF311\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tb_game` SET `name_game` = \'PUBG\', `status` = \'Active\', `top_up` = \'UC Card\', `pilihan` = (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\')
+WHERE `id_game` = \'DF311\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tb_game` SET `name_game` = \'PUBG\', `status` = \'Active\', `top_up` = \'UC Card\', `pilihan` = (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\')
+WHERE `id_game` = \'DF311\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `tb_game` SET `name_game` = :name_game:, `status` = :status:, `top_up` = :top_up:, `pilihan` = :pilihan:
+WHERE `id_game` = :id_game:', [...], false)
+ 5 APPPATH\Models\GameModel.php(34): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Game.php(141): App\Models\GameModel->updateData('DF311', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 02:21:31 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\GameModel.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Game.php(65): App\Models\GameModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Game->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 02:21:31 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_game` (`id_game`, `name_game`, `top_up`, `status`, `pilihan`, `file`) VALUES (\'DF313\', \'Free Fire\', \'Diamond\', \'Active\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'), \'1703730091_8b18212f9aee00604350.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_game` (`id_game`, `name_game`, `top_up`, `status`, `pilihan`, `file`) VALUES (\'DF313\', \'Free Fire\', \'Diamond\', \'Active\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'), \'1703730091_8b18212f9aee00604350.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_game` (`id_game`, `name_game`, `top_up`, `status`, `pilihan`, `file`) VALUES (\'DF313\', \'Free Fire\', \'Diamond\', \'Active\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'), \'1703730091_8b18212f9aee00604350.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_game` (`id_game`, `name_game`, `top_up`, `status`, `pilihan`, `file`) VALUES (:id_game:, :name_game:, :top_up:, :status:, :pilihan:, :file:)', [...], false)
+ 5 APPPATH\Models\GameModel.php(20): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Game.php(65): App\Models\GameModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Game->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Game))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:23:39 --> Undefined variable $topupOptions
+in APPPATH\Views\v_topup.php on line 116.
+ 1 APPPATH\Views\v_topup.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 116)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:24:01 --> Undefined variable $topupOptions
+in APPPATH\Views\v_topup.php on line 158.
+ 1 APPPATH\Views\v_topup.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php', 158)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\v_topup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_topup', [], true)
+ 5 APPPATH\Views\layout\navbar.php(129): view('v_topup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/navbar', [], true)
+ 9 APPPATH\Views\layout\template.php(61): view('layout/navbar')
+10 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\layout\\template.php')
+11 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('layout/template', [], true)
+13 APPPATH\Controllers\Topup.php(23): view('layout/template', [...])
+14 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->index()
+15 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+16 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:32:48 --> Undefined variable $topupOptions
+in APPPATH\Views\gamepages\topup_add.php on line 70.
+ 1 APPPATH\Views\gamepages\topup_add.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $topupOptions', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 70)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF316')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:33:54 --> Undefined variable $getData
+in APPPATH\Views\gamepages\topup_add.php on line 69.
+ 1 APPPATH\Views\gamepages\topup_add.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 69)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF316')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 02:36:18 --> Undefined variable $getData
+in APPPATH\Views\gamepages\topup_add.php on line 69.
+ 1 APPPATH\Views\gamepages\topup_add.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php', 69)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\topup_add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/topup_add', [], true)
+ 5 APPPATH\Views\gamepages\template.php(103): view('gamepages/topup_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 9 APPPATH\Controllers\Transaksi.php(36): view('gamepages/template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Transaksi->topupadd('DF316')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 02:39:08 --> mysqli_sql_exception: Column 'pilihan' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(37): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 02:39:08 --> Column 'pilihan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (:id_topup:, :id_game:, :pilihan:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(37): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 02:39:18 --> mysqli_sql_exception: Column 'pilihan' cannot be null in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(37): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 02:39:18 --> Column 'pilihan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (:id_topup:, :id_game:, :pilihan:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(37): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 02:39:51 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(37): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 02:39:51 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF314\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF314\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF314\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (:id_topup:, :id_game:, :pilihan:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(37): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-28 02:40:06 --> mysqli_sql_exception: Operand should contain 1 column(s) in C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\risingshop\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\risingshop\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\risingshop\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\risingshop\app\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\risingshop\app\Controllers\Topup.php(37): App\Models\TopupModel->insertData(Array)
+#6 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(932): App\Controllers\Topup->submit()
+#7 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+#8 C:\xampp\htdocs\risingshop\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\risingshop\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-12-28 02:40:06 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'))', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'))')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (\'RT1\', \'DF311\', (\'100 diamond - Rp 10.000\',\'100 diamond - Rp 10.000\'))')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_topup` (`id_topup`, `id_game`, `pilihan`) VALUES (:id_topup:, :id_game:, :pilihan:)', [...], false)
+ 5 APPPATH\Models\TopupModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Topup.php(37): App\Models\TopupModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 02:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 02:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:01:14 --> Undefined array key 1
+in APPPATH\Controllers\Topup.php on line 48.
+ 1 APPPATH\Controllers\Topup.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Topup.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:01:23 --> Undefined array key 1
+in APPPATH\Controllers\Topup.php on line 48.
+ 1 APPPATH\Controllers\Topup.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Topup.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:01:42 --> Undefined array key 1
+in APPPATH\Controllers\Topup.php on line 48.
+ 1 APPPATH\Controllers\Topup.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Topup.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 03:02:15 --> Undefined array key 1
+in APPPATH\Controllers\Topup.php on line 48.
+ 1 APPPATH\Controllers\Topup.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\risingshop\\app\\Controllers\\Topup.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Topup->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Topup))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 03:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 03:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:21:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-28 04:32:06 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\gamepages\template.php on line 53.
+ 1 APPPATH\Views\gamepages\template.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 5 APPPATH\Controllers\Main.php(36): view('gamepages/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-28 04:32:12 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\gamepages\template.php on line 53.
+ 1 APPPATH\Views\gamepages\template.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php', 53)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\risingshop\\app\\Views\\gamepages\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('gamepages/template', [], true)
+ 5 APPPATH\Controllers\Main.php(36): view('gamepages/template', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Main->browse()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-28 04:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-28 04:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
